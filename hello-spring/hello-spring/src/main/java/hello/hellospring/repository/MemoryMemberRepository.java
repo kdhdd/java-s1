@@ -2,10 +2,7 @@ package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 public class MemoryMemberRepository implements MemberRepository{
 
@@ -26,11 +23,19 @@ public class MemoryMemberRepository implements MemberRepository{
 
     @Override
     public Optional<Member> findByName(String name) {
-        return Optional.empty();
+        return store.values().stream()
+                .filter(member -> member.getName().equals(name))
+                //멤버.getName이 파라미터로 넘어온 name과 같은지 비교
+                .findAny();
+                //하나로 또 찾는 것
     }
 
     @Override
     public List<Member> findAll() {
-        return null;
+        return new ArrayList<>(store.values());
+    }
+
+    public void clearStore() {
+        store.clear();
     }
 }

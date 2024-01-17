@@ -9,6 +9,7 @@ public interface MemberRepository {
 
     Member save(Member member);
     Optional<Member> findById(Long id);
+    //null을 그대로 반환하는 대신 Optional로 감싸서 반환
     Optional<Member> findByName(String name);
     List<Member> findAll();
 }
