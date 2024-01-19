@@ -1,4 +1,4 @@
-package 수조작하기2;
+package 프로그래머스Lv0.수조작하기2;
 
 public class Solution {
     public String solution(int[] numlog) {

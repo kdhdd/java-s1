@@ -1,4 +1,4 @@
-package 수열과구간쿼리4;
+package 프로그래머스Lv0.수열과구간쿼리4;
 
 public class Solution {
     public int[] solution(int[] arr, int[][] queries) {

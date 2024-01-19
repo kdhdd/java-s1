@@ -1,4 +1,4 @@
-package 더크게합치기;
+package 프로그래머스Lv0.더크게합치기;
 
 public class Solution {
     public int solution(int a, int b) {

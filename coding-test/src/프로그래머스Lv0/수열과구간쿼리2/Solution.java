@@ -1,4 +1,4 @@
-package 수열과구간쿼리2;
+package 프로그래머스Lv0.수열과구간쿼리2;
 
 import java.util.Arrays;
 

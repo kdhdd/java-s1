@@ -1,13 +1,13 @@
-package 수열과구간쿼리3;
+package 프로그래머스Lv0.수열과구간쿼리1;
 
 public class Solution {
     public int[] solution(int[] arr, int[][] queries) {
         int[] answer = {};
 
         for (int i = 0; i < queries.length; i++) {
-            int temp = arr[queries[i][0]]; // temp = 0
-            arr[queries[i][0]] = arr[queries[i][1]]; // arr[0] = 3
-            arr[queries[i][1]] = temp;
+            for (int j = queries[i][0]; j <= queries[i][1]; j++) {
+                arr[j]++;
+            }
         }
 
         answer = arr;

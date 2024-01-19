@@ -1,4 +1,4 @@
-package 문자열섞기;
+package 프로그래머스Lv0.문자열섞기;
 
 public class SolutionMain {
 
