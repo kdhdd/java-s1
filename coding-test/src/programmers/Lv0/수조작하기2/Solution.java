@@ -1,21 +1,10 @@
 package programmers.Lv0.수조작하기2;
 
 public class Solution {
-    public String solution(int[] numlog) {
-        String answer = "";
+    public int solution(int[] numlog) {
+        int answer = 0;
 
 
-        for (int i = 1; i < numlog.length; i++) {
-            if (numlog[i] == numlog[i-1] + 1) {
-                answer += "w";
-            } else if (numlog[i] == numlog[i-1] -1) {
-                answer += "s";
-            } else if (numlog[i] == numlog[i-1] + 10) {
-                answer += "d";
-            } else if (numlog[i] == numlog[i-1] - 10) {
-                answer += "a";
-            }
-        }
 
         return answer;
     }

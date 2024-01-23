@@ -7,6 +7,7 @@ public class SolutionMain {
         int[] array = {149, 180, 192, 170};
         int height = 167;
 
+
         System.out.println(solution.solution(array, height));
     }
 }
