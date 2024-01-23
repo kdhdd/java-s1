@@ -1,4 +1,4 @@
-package programmers.Lv0.분수의덧셈_못푼문제;
+package programmers.못푼문제.분수의덧셈_못푼문제;
 
 public class Solution {
     public int[] solution(int numer1, int denom1, int numer2, int denom2) {

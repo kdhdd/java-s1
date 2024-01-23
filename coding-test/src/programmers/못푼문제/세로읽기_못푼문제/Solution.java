@@ -1,4 +1,4 @@
-package programmers.Lv0.세로읽기_못푼문제;
+package programmers.못푼문제.세로읽기_못푼문제;
 
 public class Solution {
     public String solution(String my_string, int m, int c) {

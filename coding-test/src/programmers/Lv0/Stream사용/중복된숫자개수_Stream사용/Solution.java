@@ -1,4 +1,4 @@
-package programmers.Lv0.중복된숫자개수_Stream사용;
+package programmers.Lv0.Stream사용.중복된숫자개수_Stream사용;
 
 import java.util.Arrays;
 

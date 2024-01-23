@@ -1,4 +1,4 @@
-package programmers.Lv0.머쓱이보다키큰사람_Stream사용;
+package programmers.Lv0.Stream사용.머쓱이보다키큰사람_Stream사용;
 
 public class SolutionMain {
     public static void main(String[] args) {

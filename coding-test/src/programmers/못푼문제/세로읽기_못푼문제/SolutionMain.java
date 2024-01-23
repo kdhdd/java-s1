@@ -1,4 +1,4 @@
-package programmers.Lv0.세로읽기_못푼문제;
+package programmers.못푼문제.세로읽기_못푼문제;
 
 public class SolutionMain {
     public static void main(String[] args) {

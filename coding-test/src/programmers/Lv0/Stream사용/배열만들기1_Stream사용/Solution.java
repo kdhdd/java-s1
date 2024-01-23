@@ -1,4 +1,4 @@
-package programmers.Lv0.배열만들기1_Stream사용;
+package programmers.Lv0.Stream사용.배열만들기1_Stream사용;
 
 import java.util.stream.IntStream;
 
