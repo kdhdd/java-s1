@@ -1,8 +1,15 @@
 public class d {
 
     public static void main(String[] args) {
-        String m1 = "ab6CDE443fgh22iJKlmn1o";
-        String m2 = "6CD";
-        System.out.println(m1.contains(m2));
+
+        int n = 930211;
+
+        int answer = 0;
+        while (n > 0) {
+            answer += n % 10;
+            n /= 10;
+        }
+
+        System.out.println(answer);
     }
 }
