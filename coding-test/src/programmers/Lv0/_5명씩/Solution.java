@@ -1,4 +1,4 @@
-package programmers._5명씩;
+package programmers.Lv0._5명씩;
 
 import java.util.ArrayList;
 import java.util.List;

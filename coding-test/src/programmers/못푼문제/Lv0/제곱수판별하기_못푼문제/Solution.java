@@ -1,4 +1,4 @@
-package programmers.못푼문제.제곱수판별하기_못푼문제;
+package programmers.못푼문제.Lv0.제곱수판별하기_못푼문제;
 
 public class Solution {
     public static void main(String[] args) {

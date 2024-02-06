@@ -1,4 +1,4 @@
-package programmers.인덱스바꾸기;
+package programmers.Lv0.인덱스바꾸기;
 
 public class Solution {
     public static void main(String[] args) {
