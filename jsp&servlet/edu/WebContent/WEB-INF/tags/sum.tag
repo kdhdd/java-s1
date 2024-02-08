@@ -1,5 +1,5 @@
 <%@ tag body-content="empty" pageEncoding="utf-8" %>
-<%-- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <%@ attribute name="num1" required="true" %>
 <%@ attribute name="num2" required="true" %>
