@@ -7,7 +7,7 @@ import java.util.List;
 public class Solution {
     public static void main(String[] args) {
 
-        String myString = "dxccxbbbxaaaa";
+        String myString = "dxccxbbbxaaaax";
 
         String[] result = myString.split("x");
         List<String> list = new ArrayList<>();
@@ -17,8 +17,6 @@ public class Solution {
         }
         String[] answer = list.toArray(new String[list.size()]);
         Arrays.sort(answer);
-        for (String s : answer) {
-            System.out.println(s);
-        }
+        System.out.println(Arrays.toString(answer));
     }
 }
