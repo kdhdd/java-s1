@@ -6,7 +6,7 @@ import javax.servlet.http.*;
 import java.util.*;
 
 public class FrontController extends HttpServlet {
-	private static final long serialVersionID = 1L;
+	private static final long serialVersionUID = 1L;
 	String charset = null;
 	HashMap<String, Controller> list = null;
 
@@ -16,12 +16,9 @@ public class FrontController extends HttpServlet {
 		list = new HashMap<String, Controller>();
 		list.put("/memberInsert.do", new MemberInsertController());
 		list.put("/memberSearch.do", new MemberSearchController());
-		/*
-		 * list.put("/memberUpdate.do", new MemberUpdateController());
-		 * list.put("/memberDelete.do", new MemberDeleteController());
-		 * list.put("/memberList.do", new MemberListController());
-		 */
-
+		list.put("/memberUpdate.do", new MemberUpdateController());
+		list.put("/memberDelete.do", new MemberDeleteController());
+		list.put("/memberList.do", new MemberListController());
 	}
 
 	@Override

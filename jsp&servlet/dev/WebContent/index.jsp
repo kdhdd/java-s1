@@ -8,3 +8,4 @@
 <br>
 <a href="/dev/memberDelete.jsp">회원 정보 삭제</a> <br>
 <br>
+<a href="/dev/memberList.jsp">모든 회원정보 보기</a> <br>
